@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlock Your Fitness Potential - Precision Fitness Newsletter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) - Placeholder for your tag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YOURTAGID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YOURTAGID');
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000; /* Pure black background */
+            color: #FFFFFF; /* White text for readability */
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 1rem;
+        }
+        .container-squeeze {
+            max-width: 32rem; /* Smaller container for focus */
+            background-color: #0A0A0A; /* Darker background for the form area */
+            border-radius: 1.5rem; /* Rounded corners */
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6); /* Stronger shadow */
+            padding: 2.5rem;
+            text-align: center;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #FFD700, #FFA500); /* Bright amber for dark mode */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .form-input {
+            width: 100%;
+            padding: 1rem;
+            border-radius: 0.75rem; /* rounded-xl */
+            border: 2px solid #444444; /* Darker border */
+            background-color: #1A1A1A; /* Input background */
+            color: #FFFFFF;
+            font-size: 1.125rem; /* text-lg */
+            outline: none;
+            transition: border-color 0.2s ease;
+        }
+        .form-input:focus {
+            border-color: #FFD700; /* Amber focus border */
+        }
+        .submit-button {
+            background-color: #FFD700; /* Amber button */
+            color: #000000; /* Black text on amber */
+            font-weight: 700; /* font-bold */
+            padding: 1rem 2.5rem;
+            border-radius: 0.75rem; /* rounded-xl */
+            transition: all 0.2s ease;
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3); /* Amber shadow */
+            font-size: 1.25rem; /* text-xl */
+            text-transform: uppercase;
+            letter-spacing: 0.05em; /* tracking-wide */
+        }
+        .submit-button:hover {
+            background-color: #FFA500; /* Darker amber on hover */
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(255, 215, 0, 0.4);
+        }
+        .text-secondary-light {
+            color: #E0E0E0; /* Slightly off-white for secondary text */
+        }
+        .coaching-button {
+            background-color: #10B981; /* A distinct green */
+            color: #FFFFFF; /* White text on this button */
+            font-weight: 700;
+            padding: 1.25rem 2.5rem; /* Larger padding */
+            border-radius: 0.75rem;
+            transition: all 0.2s ease;
+            box-shadow: 0 8px 20px rgba(16, 185, 129, 0.4); /* Green shadow */
+            font-size: 1.5rem; /* Even larger text */
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 1.5rem; /* Space above the button */
+        }
+        .coaching-button:hover {
+            background-color: #059669; /* Darker green on hover */
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-squeeze w-full">
+        <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight mb-4 gradient-text">
+            UNLOCK YOUR BODY'S TRUE POTENTIAL.
+        </h1>
+        <p class="text-lg sm:text-xl text-secondary-light font-medium mb-8">
+            Get exclusive strategies, tips, and insights to shed fat, build real muscle, and achieve lasting vitality – delivered straight to your inbox.
+        </p>
+
+        <form action="https://formspree.io/f/xnnzdkkd" method="POST" class="space-y-6">
+            <div>
+                <input type="email" id="email" name="email" placeholder="Enter your best email here..." required class="form-input">
+            </div>
+            <div>
+                <button type="submit" class="submit-button w-full">
+                    GET INSTANT ACCESS NOW
+                </button>
+            </div>
+        </form>
+
+        <p class="text-xs text-gray-500 mt-6 mb-8">
+            We respect your privacy. Your email is 100% secure and will never be shared. Unsubscribe anytime.
+        </p>
+
+        <!-- New Coaching Sign-up Button -->
+        <a href="https://vincentswanepoel.github.io/Vincent-Swanepoel-tRAINING/" target="_blank" class="coaching-button w-full inline-block">
+            READY FOR 1-ON-1 COACHING? CLICK HERE!
+        </a>
+    </div>
+
+</body>
+</html>
